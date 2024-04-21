@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Open+Sans:wght@600&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Montserrat&family=Open+Sans:wght@600&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* #Header */
+
+.header {
+	text-align: start;
+	padding: 20px;
+	background-color: #f5f5f5;
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.logo-text {
+	height: 130px;
+	font-size: 36px;
+	color: #86a789;
+}
+
+.accent-text {
+	margin-left: 4px;
+	color: #86a789;
+}
+
+/* #Form */
+
+.container .body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background: #ebf3e8;
+	/* position: relative; */
+	padding-inline: 60px;
+}
+.container .content {
+	width: 50%;
+}
+.container .introduction {
+	display: flex;
+
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: flex-start;
+}
+.container .tagline {
+	width: 73%;
+	text-align: left;
+	margin: 2rem 0;
+	font-size: 3rem;
+
+	font-family: 'Inter', sans-serif;
+	color: #99c7aa;
+}
+.container .intro {
+	text-align: left;
+	width: 70%;
+	margin: 1rem 0;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	font-family: 'Inter', sans-serif;
+	color: #72a376;
+}
+.container .search {
+	width: 650px;
+	margin-top: 2rem;
+	position: relative;
+
+	height: 68px;
+	display: flex;
+	align-items: center;
+}
+.container input {
+	width: 100%;
+	height: 75px;
+	background: #d2e3c8;
+	border: 1px solid #dadada;
+	border-radius: 35px;
+	padding: 20px 15px;
+	font-size: 20px;
+
+	font-family: 'Inter', sans-serif;
+	outline: none;
+	color: #113946;
+}
+.container button {
+	display: flex;
+	justify-content: center;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	padding: 20px 30px;
+	border-radius: 30px;
+	border: 1px solid #dadada;
+	background-color: #86a789;
+	color: #ffffff;
+	cursor: pointer;
+	right: 7px;
+	top: 1.4px;
+	position: absolute;
+}
+
+.container input::placeholder {
+	color: #113946;
+}
+
+.container .body .bg-image {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.container .body img {
+	width: 100%;
+}
